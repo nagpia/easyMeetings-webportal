@@ -55,3 +55,8 @@ group :production do
   gem 'rails_12factor', '0.0.2'
 end
 
+group :development, :test do
+gem 'sqlite3', '1.3.8'
+gem 'rspec-rails', '2.13.1'
+end
+
