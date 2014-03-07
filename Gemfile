@@ -1,8 +1,7 @@
 source 'https://rubygems.org'
 
-gem "therubyracer"
-gem "less-rails"
-gem "twitter-bootstrap-rails"
+gem 'bootstrap-sass', '~> 3.1.0'
+gem "font-awesome-rails"
 
 gem 'devise'
 
